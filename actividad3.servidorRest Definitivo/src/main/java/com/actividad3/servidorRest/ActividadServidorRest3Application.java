@@ -1,0 +1,21 @@
+package com.actividad3.servidorRest;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+/**
+ * Clase que es el arranque de la aplicacion del Servicio REST
+ * @author cristiangarcialagar
+ *
+ */
+@SpringBootApplication
+public class ActividadServidorRest3Application {
+
+	public static void main(String[] args) {
+		System.out.println("Servicio Rest -> Cargando el contexto de Spring...");
+		
+		SpringApplication.run(ActividadServidorRest3Application.class, args);
+		
+		System.out.println("Servicio Rest -> Contexto de Spring cargado!");
+	}
+
+}
